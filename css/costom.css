@@ -51,3 +51,30 @@ p.alignCenter {
     margin: 15px auto auto auto; 
 
 }
+.row {
+    border: 5 5 5 5;
+}
+
+.img-circle{
+    margin: auto;
+}
+.centerBox
+    {        
+        /* Firefox */
+        display:-moz-box;
+        -moz-box-orient:vertical;
+        -moz-box-pack:center;
+        -moz-box-align:center;
+ 
+        /* Safari and Chrome */
+        display:-webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-box-pack:center;
+        -webkit-box-align:center;
+ 
+        /* W3C */
+        display:box;
+        box-orient:vertical;
+        box-pack:center;
+        box-align:center;
+    }
