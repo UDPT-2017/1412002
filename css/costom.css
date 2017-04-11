@@ -99,5 +99,13 @@ p.alignCenter {
 .image img {
     width: 85%;
     height: auto;
-margin:auto;
+margin:30px auto auto auto;
+}
+
+
+.img-circle{
+    margin: 50px 30px 30px 30px;
+}
+.info{
+    margin: 40px 50px 50px 50px;
 }
