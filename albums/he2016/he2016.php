@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="vi">
   <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany</title>
+    <title>Albums</title>
    
     <!--BOOTSTRAP-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!--COSTOM CSS--> 
-    <link href="css/costom.css" rel="stylesheet">
-    <link href="css/sidebar.css" rel="stylesheet">
+    <link href="../css/costom.css" rel="stylesheet">
+    <link href="../css/sidebar.css" rel="stylesheet">
     <!--LINK PHP MENU FILE-->
-    <?php require("func.php"); 
-    incView("Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany.view");
-    ?>
+    <?php require("../func.php"); ?>
+    <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
   </head>
   <body>
 
@@ -29,7 +33,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
            </button>
-              
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="float: right;">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -41,7 +44,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="../index.php">Home <span ></span></a></li>
+                <li ><a href="../index.php">Home <span ></span></a></li>
                 <li><a href="../albums.php">Albums</a></li>
                 <li class="active"><a href="../blog.php">Blogs</a></li>
                 <li><a href="../about.php">Abouts</a></li>
@@ -55,15 +58,14 @@
     <!--breadcrumb-->
         <ol class="breadcrumb">
           <li><a href="../index.php">Index</a></li>
-          <li ><a href="../blog.php">Blogs</a></li>
-          <li class="active">Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany</li>
+          <li class="active">Blog</li>
         </ol>
 
 
-    <div class="col-sm-3 col-md-3 col-lg-3">
+    <div class="col-sm-3 col-md-3 col-lg-3" >
       <!--LEFT Menu -->
              
-       <div class="container">
+       <div class="container" >
       <div class="row row-offcanvas row-offcanvas-left">
         
         <!-- sidebar -->
@@ -84,26 +86,59 @@
       <!--//LEFT Menu -->
     </div>
 
-    <div class="col-sm-9 col-md-9 col-lg-8">
-    <h3>Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany
 
-</h3>
-       
-<p>
-Manchester United are prepared to sell Adnan Januzaj this summer.</p>
-<p>Januzaj has one year left on his contract and manager Jose Mourinho hinted last week that he has already made up his mind on the 22-year-old's future.
-The Belgium international has struggled to make an impression while on loan at Sunderland.</p>
-<div style="width: 100%;
-text-align:center;"">
-<div class="image"><img src="../photo/32C7A3AE00000578-0-image-a-126_1491868485904.jpg" ></div>
-<p style="alignCenter">Manchester United are now prepared to sell the Belgian youngster</p>
-</div>
-<p>United had hoped he would kick on after an inauspicious spell on loan at Borussia Dortmund but maintain reservations about his attitude.
-Januzaj has interest from France, Italy and Germany though not to the level that was expressed in him when he first broke through into United's first team.</p>
-<p>He has failed to score in his 21 Premier League appearances for the Black Cats, netting once in the EFL Cup against Shrewsbury, and was shown a red card in the defeat at Tottenham in September.</p>
-<p>He has made 50 league appearances during his time at United, scoring five times but never fulfilling the potential has shown in intervals.
+    <div class="col-sm-9 col-md-8 col-lg-8">
+      <div class="row-sm-6 row-md-6 row-lg-6">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="thumbnail">
+                <a href="/albums/viewphoto.php?q='albums/he2016/IMG_0629.JPG'"><img src="../albums/he2016/IMG_0629.JPG" alt="..."></a>
+                <div class="caption">
+                  
+                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("albums/he2016/IMG_0629.view")); echo( " view"); ?> </span></p>
+                  </div>
+                  <div><br></div>
+                </div>
+              </div>
+          </div> 
+          <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="thumbnail">
+                <a href="/albums/viewphoto.php?q='albums/he2016/IMG_0629.JPG'"><img src="../albums/he2016/IMG_0629.JPG" alt="..."></a>
+                <div class="caption">
+                  
+                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("albums/he2016/IMG_0629.view")); echo( " view"); ?> </span></p>
+                  </div>
+                  <div><br></div>
+                </div>
+              </div>
+          </div> 
+          <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="thumbnail">
+                <a href="/albums/viewphoto.php?q='albums/he2016/IMG_0629.JPG'""><img src="../albums/he2016/IMG_0629.JPG" alt="..."></a>
+                <div class="caption">
+                  
+                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("albums/he2016/IMG_0629.view")); echo( " view"); ?> </span></p>
+                  </div>
+                  <div><br></div>
+                </div>
+              </div>
+          </div> 
+      </div>
 
-</p>
+      <div class="row-sm-6 row-md-6 row-lg-6">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+          
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+          
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+          
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+          
+          </div>
+        </div>
+
 
 
 
@@ -120,7 +155,7 @@ Januzaj has interest from France, Italy and Germany though not to the level that
       
     <!--BOTTOM MENU-->
     <div class="row footer">
-            <div class="col-xs-12 col-md-6 placeholder-footer">
+            <div class="col-xs-12 col-md-6">
               <h4 style="border-left: 5px solid #62A9FF; padding: 5px;">Infomation</h4>
               <p>
                 <b>Author:</b> Dương Trường An
@@ -130,11 +165,11 @@ Januzaj has interest from France, Italy and Germany though not to the level that
               </p>
               <span class="text-muted">Copyright 2017 © lab01-1412002-UDPT</span></p>
             </div>
-            <div class="col-xs-12 col-md-6 placeholder-footer">
+            <div class="col-xs-12 col-md-6">
               <h4 style="border-left: 5px solid #62A9FF; padding: 5px;">Contact</h4>
               <p>
                 <b>Email:</b>
-                <a href="mailto:nghoangthi1@gmail.com">duongtruongan@outlook.com</a>
+                <a href="mailto:duongtruongan@outlook.com">duongtruongan@outlook.com</a>
               </p>
               <p>
                 <b>Mobile:</b>

@@ -4,15 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Name of your app</title>
+    <title>Albums</title>
    
     <!--BOOTSTRAP-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!--COSTOM CSS--> 
-    <link href="css/costom.css" rel="stylesheet">
-    <link href="css/sidebar.css" rel="stylesheet">
+    <link href="../css/costom.css" rel="stylesheet">
+    <link href="../css/sidebar.css" rel="stylesheet">
     <!--LINK PHP MENU FILE-->
-    <?php require("func.php"); ?>
+    <?php require("../func.php"); 
+    $pic = $_GET['q'];
+    $view= rtrim($pic,"JPG");
+    $view = $view."view";
+    incView($view);
+    ?>
     <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -89,56 +94,10 @@
 
     <div class="col-sm-9 col-md-8 col-lg-8">
       <div class="row-sm-6 row-md-6 row-lg-6">
-          <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="thumbnail">
-                <a href="/blog/Nikki%20Haley%20says%20'regime%20change'%20in%20Syria.%20Rex%20Tillerson%20doesnt.%20What%20gives.php"><img src="../photo/ap17097567004485.jpg" alt="..."></a>
-                <div class="caption">
-                  <h5><a href="/blog/Nikki%20Haley%20says%20'regime%20change'%20in%20Syria.%20Rex%20Tillerson%20doesnt.%20What%20gives.php">Nikki Haley says 'regime change' in Syria. Rex Tillerson doesn't. What gives?</a></h5>
-                  <p>Depending on which Sunday talk show you watched, you came away with a very different sense of what the Trump Administration's next steps will be in Syria.</p>
-                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("blog/Nikki Haley says 'regime change' in Syria. Rex Tillerson doesnt. What gives.view")); echo( " view"); ?> </span></p>
-                  </div>
-                  <div><br></div>
-                </div>
-              </div>
-          </div> 
-          <div class="col-sm-12 col-md-6 col-lg-4"><div class="thumbnail">
-                <a href="/blog/Unilateral%20Action%20by%20Trump%20on%20North%20Korea%20Will%20Simply%20Add%20to%20an%20Already%20Intractable%20Problem.php"><img src="../photo/gettyimages-665777762.jpg" alt="..."></a>
-                <div class="caption">
-                  <h5><a href="/blog/Unilateral%20Action%20by%20Trump%20on%20North%20Korea%20Will%20Simply%20Add%20to%20an%20Already%20Intractable%20Problem.php">Unilateral Action by Trump on North Korea Will Simply Add to an Already Intractable Problem</a></h5>
-                  <p>When U.S. President Donald Trump dispatched 59 Tomahawk missiles against Syria on Thursday evening — ostensibly in response to a chemical-weapons attack</p>
-                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"><p><span class="text-muted"><? echo (readView("blog/Unilateral Action by Trump on North Korea Will Simply Add to an Already Intractable Problem.view")); echo( " view"); ?> </span></p></div>
-                  <div><br></div>
-                </div>
-              </div>
-          </div> 
-          <div class="col-sm-12 col-md-0 col-lg-4"><div class="thumbnail">
-                <a href="/blog/Manchester%20United%20prepared%20to%20sell%20Adnan%20Januzaj%20amid%20interest%20from%20France,%20Italy%20and%20Germany.php"><img src="../photo/32C7A3AE00000578-0-image-a-126_1491868485904.jpg" alt="..." height="20%" width="100%"></a>
-                <div class="caption">
-                  <h5><a href="/blog/Manchester%20United%20prepared%20to%20sell%20Adnan%20Januzaj%20amid%20interest%20from%20France,%20Italy%20and%20Germany.php">Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany</a></h5>
-                  <p>Januzaj has one year left on his contract and manager Jose Mourinho hinted last week that he has already made up his mind on the 22-year-old's future.
-The Belgium international ...</p>
-                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div>
-                  <div class="viewcount">
-                  <p>
-                  <span class="text-muted"><? echo (readView("blog/Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany.view")); echo( " view"); ?> </span></p></div>
-                  <div><br></div>
-                </div>
-              </div>
-          </div> 
-          <div class="col-sm-12 col-md-0 col-lg-4"><div class="thumbnail">
-                <a href="/blog/Manchester%20United%20prepared%20to%20sell%20Adnan%20Januzaj%20amid%20interest%20from%20France,%20Italy%20and%20Germany.php"><img src="../photo/32C7A3AE00000578-0-image-a-126_1491868485904.jpg" alt="..." height="20%" width="100%"></a>
-                <div class="caption">
-                  <h5><a href="/blog/Manchester%20United%20prepared%20to%20sell%20Adnan%20Januzaj%20amid%20interest%20from%20France,%20Italy%20and%20Germany.php">Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany</a></h5>
-                  <p>Januzaj has one year left on his contract and manager Jose Mourinho hinted last week that he has already made up his mind on the 22-year-old's future.
-The Belgium international ...</p>
-                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div>
-                  <div class="viewcount">
-                  <p>
-                  <span class="text-muted"><? echo (readView("blog/Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany.view")); echo( " view"); ?> </span></p></div>
-                  <div><br></div>
-                </div>
-              </div>
-          </div> 
+          <div class="col-sm-10 col-md-10 col-lg-10">
+              <img src='<?php echo $pic; ?>' class='img-rounded'  width=100% height=auto>
+              </div>          
+           
       </div>
 
       <div class="row-sm-6 row-md-6 row-lg-6">

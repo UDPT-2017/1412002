@@ -9,12 +9,12 @@
 </title>
    
     <!--BOOTSTRAP-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!--COSTOM CSS--> 
-    <link href="css/costom.css" rel="stylesheet">
-    <link href="css/sidebar.css" rel="stylesheet">
+    <link href="../css/costom.css" rel="stylesheet">
+    <link href="../css/sidebar.css" rel="stylesheet">
     <!--LINK PHP MENU FILE-->    
-    <?php require("func.php"); 
+    <?php require("../func.php"); 
     incView("Nikki Haley says 'regime change' in Syria. Rex Tillerson doesnt. What gives.view");
     ?>
 
