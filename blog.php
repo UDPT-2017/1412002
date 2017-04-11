@@ -88,6 +88,7 @@
 
 
     <div class="col-sm-9 col-md-8 col-lg-8">
+    </br>
       <div class="row-sm-6 row-md-6 row-lg-6">
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
@@ -126,19 +127,44 @@ The Belgium international ...</p>
               </div>
           </div> 
           <div class="col-sm-12 col-md-0 col-lg-4"><div class="thumbnail">
-                <a href="/blog/Manchester%20United%20prepared%20to%20sell%20Adnan%20Januzaj%20amid%20interest%20from%20France,%20Italy%20and%20Germany.php"><img src="../photo/32C7A3AE00000578-0-image-a-126_1491868485904.jpg" alt="..." height="20%" width="100%"></a>
+                <a href="/blog/AMD to cut wires from VR headsets with Nitero acquisition.php"><img src="../photo/20160315-2_edited-100717409-large.jpg" alt="..." height="20%" width="100%"></a>
                 <div class="caption">
-                  <h5><a href="/blog/Manchester%20United%20prepared%20to%20sell%20Adnan%20Januzaj%20amid%20interest%20from%20France,%20Italy%20and%20Germany.php">Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany</a></h5>
-                  <p>Januzaj has one year left on his contract and manager Jose Mourinho hinted last week that he has already made up his mind on the 22-year-old's future.
-The Belgium international ...</p>
+                  <h5><a href="/blog/AMD to cut wires from VR headsets with Nitero acquisition.php">AMD to cut wires from VR headsets with Nitero acquisition</a></h5>
+                  <p>So the chip company has acquired Nitero, which provides technology for VR headsets to be wirelessly connected to PCs or mobile devices.</p>
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div>
                   <div class="viewcount">
                   <p>
-                  <span class="text-muted"><? echo (readView("blog/Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany.view")); echo( " view"); ?> </span></p></div>
+                  <span class="text-muted"><? echo (readView("blog/AMD to cut wires from VR headsets with Nitero acquisition.view")); echo( " view"); ?> </span></p></div>
+                  <div><br></div>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-0 col-lg-4"><div class="thumbnail">
+                <a href="/blog/Qualcomm says Apple using its power to pay less for a patent license.php"><img src="../photo/0786_as-17-100703647-large.jpg" alt="..." height="20%" width="100%"></a>
+                <div class="caption">
+                  <h5><a href="/blog/Qualcomm says Apple using its power to pay less for a patent license.php">Qualcomm says Apple using its power to pay less for a patent license</a></h5>
+                  <p>Qualcomm is seeking damages from Apple, alleging that the iPhone maker interfered with long-term agreements between the chip company and licensees that manufacture</p>
+                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div>
+                  <div class="viewcount">
+                  <p>
+                  <span class="text-muted"><? echo (readView("blog/Qualcomm says Apple using its power to pay less for a patent license.view")); echo( " view"); ?> </span></p></div>
                   <div><br></div>
                 </div>
               </div>
           </div> 
+          <div class="col-sm-12 col-md-0 col-lg-4"><div class="thumbnail">
+                <a href="/blog/US missile strike took out of Syria's airforce, Mattis claims.php"><img src="../photo/170407145501-08-us-strikes-syrian-airbase-0407-super-169.jpg" alt="..." height="20%" width="100%"></a>
+                <div class="caption">
+                  <h5><a href="/blog/US missile strike took out of Syria's airforce, Mattis claims.php">US missile strike took out 20% of Syria's airforce, Mattis claims</a></h5>
+                  <p>The US airstrike on Syria's Shayrat airbase Friday destroyed about 20% of the Syrian government's operational aircraft, Secretary of Defense </p>
+                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div>
+                  <div class="viewcount">
+                  <p>
+                  <span class="text-muted"><? echo (readView("blog/US missile strike took out of Syria's airforce, Mattis claims.view")); echo( " view"); ?> </span></p></div>
+                  <div><br></div>
+                </div>
+              </div>
+          </div>
       </div>
 
       <div class="row-sm-6 row-md-6 row-lg-6">

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Albums</title>
+    <title>Summer 2016</title>
    
     <!--BOOTSTRAP-->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -44,10 +44,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li ><a href="../index.php">Home <span ></span></a></li>
-                <li><a href="../albums.php">Albums</a></li>
-                <li class="active"><a href="../blog.php">Blogs</a></li>
-                <li><a href="../about.php">Abouts</a></li>
+                <li ><a href="../../index.php">Home <span ></span></a></li>
+                <li class="active"><a href="../../albums.php">Albums</a></li>
+                <li ><a href="../../blog.php">Blogs</a></li>
+                <li><a href="../../about.php">Abouts</a></li>
               </ul>
               
               
@@ -57,8 +57,9 @@
     <!--END TOP MENU-->
     <!--breadcrumb-->
         <ol class="breadcrumb">
-          <li><a href="../index.php">Index</a></li>
-          <li class="active">Blog</li>
+          <li><a href="../../index.php">Index</a></li>
+          <li><a href="../../albums.php">Albums</a></li>
+          <li class="active">Summer 2016</li>
         </ol>
 
 
@@ -72,12 +73,12 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
             <ul class="nav">
 
-                  <li ><a href="../index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                  <li ><a href="../albums.php"><span class="glyphicon glyphicon-picture"></span> Albums</a></li>
-                  <li class="active"><a href="../blog.php"><span class="glyphicon glyphicon-pencil"></span> Blogs</a></li>
+                  <li ><a href="../../index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                  <li ><a href="../../albums.php"><span class="glyphicon glyphicon-picture"></span> Albums</a></li>
+                  <li class="active"><a href="../../blog.php"><span class="glyphicon glyphicon-pencil"></span> Blogs</a></li>
                   
                   
-                  <li><a href="../about.php"><span class="glyphicon glyphicon-user"></span> About</a></li>
+                  <li><a href="../../about.php"><span class="glyphicon glyphicon-user"></span> About</a></li>
 
               </ul>
         </div>
@@ -91,7 +92,7 @@
       <div class="row-sm-6 row-md-6 row-lg-6">
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_0629.JPG"><img src="IMG_0629.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_0629.jpg"><img src="IMG_0629.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_0629.view")); echo( " view"); ?> </span></p>
@@ -102,7 +103,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_1100.JPG"><img src="IMG_1100.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_1100.jpg"><img src="IMG_1100.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_1100.view")); echo( " view"); ?> </span></p>
@@ -113,7 +114,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_0032.JPG""><img src="IMG_0032.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_0032.jpg""><img src="IMG_0032.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_0032.view")); echo( " view"); ?> </span></p>
@@ -124,7 +125,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_0629.JPG"><img src="IMG_0629.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_0629.jpg"><img src="IMG_0629.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_0629.view")); echo( " view"); ?> </span></p>
@@ -135,7 +136,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_1100.JPG"><img src="IMG_1100.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_1100.jpg"><img src="IMG_1100.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_1100.view")); echo( " view"); ?> </span></p>
@@ -146,7 +147,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_0032.JPG""><img src="IMG_0032.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_0032.jpg""><img src="IMG_0032.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_0032.view")); echo( " view"); ?> </span></p>
@@ -157,7 +158,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_0629.JPG"><img src="IMG_0629.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_0629.jpg"><img src="IMG_0629.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_0629.view")); echo( " view"); ?> </span></p>
@@ -168,7 +169,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_1100.JPG"><img src="IMG_1100.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_1100.jpg"><img src="IMG_1100.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_1100.view")); echo( " view"); ?> </span></p>
@@ -179,7 +180,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_0032.JPG""><img src="IMG_0032.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_0032.jpg""><img src="IMG_0032.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_0032.view")); echo( " view"); ?> </span></p>
@@ -190,7 +191,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_0629.JPG"><img src="IMG_0629.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_0629.jpg"><img src="IMG_0629.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_0629.view")); echo( " view"); ?> </span></p>
@@ -201,7 +202,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_1100.JPG"><img src="IMG_1100.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_1100.jpg"><img src="IMG_1100.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_1100.view")); echo( " view"); ?> </span></p>
@@ -212,7 +213,7 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/viewphoto.php?q=he2016/IMG_0032.JPG""><img src="IMG_0032.JPG" alt="..."></a>
+                <a href="/albums/viewphoto.php?q=he2016/IMG_0032.jpg""><img src="IMG_0032.jpg" alt="..."></a>
                 <div class="caption">
                   
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readView("IMG_0032.view")); echo( " view"); ?> </span></p>

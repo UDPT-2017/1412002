@@ -45,8 +45,8 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <li ><a href="../index.php">Home <span ></span></a></li>
-                <li><a href="../albums.php">Albums</a></li>
-                <li class="active"><a href="../blog.php">Blogs</a></li>
+                <li class="active"><a href="../albums.php">Albums</a></li>
+                <li><a href="../blog.php">Blogs</a></li>
                 <li><a href="../about.php">Abouts</a></li>
               </ul>
               
@@ -58,7 +58,7 @@
     <!--breadcrumb-->
         <ol class="breadcrumb">
           <li><a href="../index.php">Index</a></li>
-          <li class="active">Blog</li>
+          <li class="active">Albums</li>
         </ol>
 
 
@@ -73,8 +73,8 @@
             <ul class="nav">
 
                   <li ><a href="../index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                  <li ><a href="../albums.php"><span class="glyphicon glyphicon-picture"></span> Albums</a></li>
-                  <li class="active"><a href="../blog.php"><span class="glyphicon glyphicon-pencil"></span> Blogs</a></li>
+                  <li class="active"><a href="../albums.php"><span class="glyphicon glyphicon-picture"></span> Albums</a></li>
+                  <li ><a href="../blog.php"><span class="glyphicon glyphicon-pencil"></span> Blogs</a></li>
                   
                   
                   <li><a href="../about.php"><span class="glyphicon glyphicon-user"></span> About</a></li>
@@ -88,10 +88,11 @@
 
 
     <div class="col-sm-9 col-md-8 col-lg-8">
+    </br>
       <div class="row-sm-6 row-md-6 row-lg-6">
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/he2016/summer2016.php"><img src="../albums/he2016/IMG_0629.JPG" alt="..."></a>
+                <a href="/albums/he2016/summer2016.php"><img src="../albums/he2016/IMG_0629.jpg" alt="..."></a>
                 <div class="caption">
                   <h5><a href="/albums/he2016/summer2016.php">Summer 2016</a></h5>
                   <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readAllView("he2016")); echo( " view"); ?> </span></p>
@@ -102,10 +103,10 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/he2016/summer2016.php"><img src="../albums/he2016/IMG_0629.JPG" alt="..."></a>
+                <a href="/albums/quenquen/quenquen.php"><img src="../albums/quenquen/chanh-muoi-chua-benh.jpg" alt="..."></a>
                 <div class="caption">
-                  <h5><a href="/albums/he2016/summer2016.php">Summer 2016</a></h5>
-                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readAllView("he2016")); echo( " view"); ?> </span></p>
+                  <h5><a href="/albums/quenquen/quenquen.php">Other</a></h5>
+                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readAllView("quenquen")); echo( " view"); ?> </span></p>
                   </div>
                   <div><br></div>
                 </div>
@@ -113,10 +114,10 @@
           </div> 
           <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="thumbnail">
-                <a href="/albums/he2016/summer2016.php"><img src="../albums/he2016/IMG_0629.JPG" alt="..."></a>
+                <a href="/albums/ttm/ttm.php"><img src="../../albums/ttm/1.jpg" alt="..."></a>
                 <div class="caption">
-                  <h5><a href="/albums/he2016/summer2016.php">Summer 2016</a></h5>
-                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readAllView("he2016")); echo( " view"); ?> </span></p>
+                  <h5><a href="/albums/ttm/ttm.php">President of US</a></h5>
+                  <div class="postby"><p><span class="text-muted">Post by admin</span></p></div><div class="viewcount"> <p><span class="text-muted"><? echo (readAllView("ttm")); echo( " view"); ?> </span></p>
                   </div>
                   <div><br></div>
                 </div>

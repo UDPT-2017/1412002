@@ -14,7 +14,8 @@
     <!--LINK PHP MENU FILE-->
     <?php require("../func.php"); 
     $pic = $_GET['q'];
-    $view= rtrim($pic,"JPG");
+   
+    $view= rtrim($pic,"jpg");
     $view = $view."view";
     incView($view);
     ?>
@@ -63,7 +64,8 @@
     <!--breadcrumb-->
         <ol class="breadcrumb">
           <li><a href="../index.php">Index</a></li>
-          <li class="active">Blog</li>
+          <li><a href="../albums.php">Albums</a></li>
+          <li class="active"><?echo $view?></li>
         </ol>
 
 
@@ -93,13 +95,14 @@
 
 
     <div class="col-sm-9 col-md-8 col-lg-8">
+    </br>
       <div class="row-sm-6 row-md-6 row-lg-6">
           <div class="col-sm-10 col-md-10 col-lg-10">
               <img src='<?php echo $pic; ?>' class='img-rounded'  width=100% height=auto>
               </div>          
            
       </div>
-
+      </br>
       <div class="row-sm-6 row-md-6 row-lg-6">
           <div class="col-sm-12 col-md-6 col-lg-3">
           
