@@ -13,6 +13,9 @@
     <link href="css/costom.css" rel="stylesheet">
     <link href="css/sidebar.css" rel="stylesheet">
     <!--LINK PHP MENU FILE-->
+    <?php require("func.php"); 
+    incView("Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany.view");
+    ?>
   </head>
   <body>
 
@@ -38,10 +41,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="../index.html">Home <span ></span></a></li>
-                <li><a href="../albums.html">Albums</a></li>
-                <li class="active"><a href="../blog.html">Blogs</a></li>
-                <li><a href="../about.html">Abouts</a></li>
+                <li><a href="../index.php">Home <span ></span></a></li>
+                <li><a href="../albums.php">Albums</a></li>
+                <li class="active"><a href="../blog.php">Blogs</a></li>
+                <li><a href="../about.php">Abouts</a></li>
               </ul>
               
               
@@ -51,8 +54,8 @@
     <!--END TOP MENU-->
     <!--breadcrumb-->
         <ol class="breadcrumb">
-          <li><a href="../index.html">Index</a></li>
-          <li ><a href="../blog.html">Blogs</a></li>
+          <li><a href="../index.php">Index</a></li>
+          <li ><a href="../blog.php">Blogs</a></li>
           <li class="active">Manchester United prepared to sell Adnan Januzaj amid interest from France, Italy and Germany</li>
         </ol>
 
@@ -67,12 +70,12 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
             <ul class="nav">
 
-                  <li ><a href="../index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                  <li ><a href="../albums.html"><span class="glyphicon glyphicon-picture"></span> Albums</a></li>
-                  <li class="active"><a href="../blog.html"><span class="glyphicon glyphicon-pencil"></span> Blogs</a></li>
+                  <li ><a href="../index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                  <li ><a href="../albums.php"><span class="glyphicon glyphicon-picture"></span> Albums</a></li>
+                  <li class="active"><a href="../blog.php"><span class="glyphicon glyphicon-pencil"></span> Blogs</a></li>
                   
                   
-                  <li><a href="../about.html"><span class="glyphicon glyphicon-user"></span> About</a></li>
+                  <li><a href="../about.php"><span class="glyphicon glyphicon-user"></span> About</a></li>
 
               </ul>
         </div>

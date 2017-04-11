@@ -13,7 +13,11 @@
     <!--COSTOM CSS--> 
     <link href="css/costom.css" rel="stylesheet">
     <link href="css/sidebar.css" rel="stylesheet">
-    <!--LINK PHP MENU FILE-->
+    <!--LINK PHP MENU FILE-->    
+    <?php require("func.php"); 
+    incView("Nikki Haley says 'regime change' in Syria. Rex Tillerson doesnt. What gives.view");
+    ?>
+
   </head>
   <body>
 
